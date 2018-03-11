@@ -8,7 +8,7 @@ export class ClickToRevealDirective {
   constructor() { }
 
   @HostListener('click', ['$event.target'])
-  reveal(target) {
+  reveal(target: HTMLElement): void {
     target.style['white-space'] = 'normal';
   }
 

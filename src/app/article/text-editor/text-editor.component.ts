@@ -13,7 +13,7 @@ export class TextEditorComponent implements OnInit {
 
   emitWordCount(event: Event): void {
     this.countUpdate.emit(
-      (event.target.value.match(/\S+/g) || []).length
+      ((<HTMLTextAreaElement>event.target).value.match(/\S+/g) || []).length
     );
   }
 
