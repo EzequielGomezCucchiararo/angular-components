@@ -1,0 +1,7 @@
+<p>{{currentDate | date}}</p>
+<h1 click-to-reveal>{{title}}</h1>
+<attribution [author]="'Ezequiel Gómez'"></attribution>
+<p>Word count: {{ wordCount }}</p>
+<text-editor (countUpdate)="updateWordCount($event)"></text-editor>
+<p>Shared {{shareCount}} times.</p>
+<button (click)="share($event)">Share</button>
