@@ -7,6 +7,7 @@ import { ArticleComponent } from './article/article.component';
 import { AttributionComponent } from './article/attribution/attribution.component';
 import { TextEditorComponent } from './article/text-editor/text-editor.component';
 import { ClickToRevealDirective } from './directives/click-to-reveal/click-to-reveal.directive';
+import { AdSectionComponent } from './article/ad-section/ad-section.component';
 
 
 @NgModule({
@@ -16,6 +17,7 @@ import { ClickToRevealDirective } from './directives/click-to-reveal/click-to-re
     AttributionComponent,
     TextEditorComponent,
     ClickToRevealDirective,
+    AdSectionComponent,
   ],
   imports: [
     BrowserModule
