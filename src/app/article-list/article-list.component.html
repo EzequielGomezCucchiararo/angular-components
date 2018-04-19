@@ -1,0 +1,5 @@
+<div *ngFor="let article of articles; let i = index">
+  <h1 *ngIf="article.active">
+    {{ i }}: {{ article.title }}
+  </h1>
+</div>
