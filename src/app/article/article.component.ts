@@ -12,6 +12,7 @@ export class ArticleComponent implements OnInit {
   Allegations Involving Ability to Dunk`;
   public shareCount = 0;
   public wordCount = 0;
+  public myArray = [1, 2, 3, 4];
 
   ngOnInit() {
     
