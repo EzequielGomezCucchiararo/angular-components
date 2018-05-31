@@ -11,3 +11,9 @@
     <p>U.S. senators are up in arms following the recent ruling stripping them of their beloved selfie sticks.</p>
     <p>A bipartisan committee drafted a resolution to smuggle selfie sticks onto the floor by any means necessary.</p>
 </ad-section>
+
+<!-- input data binding fixed with event to refresh the view -->
+<input #title (keyup)="0" />
+<h3>{{ title.value }}</h3>
+
+<app-feedback [val]="likes"></app-feedback>

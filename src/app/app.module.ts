@@ -9,6 +9,7 @@ import { TextEditorComponent } from './article/text-editor/text-editor.component
 import { ClickToRevealDirective } from './directives/click-to-reveal/click-to-reveal.directive';
 import { AdSectionComponent } from './article/ad-section/ad-section.component';
 import { ArticleListComponent } from './article-list/article-list.component';
+import { FeedbackComponent } from './article/feedback/feedback.component';
 
 
 @NgModule({
@@ -20,6 +21,7 @@ import { ArticleListComponent } from './article-list/article-list.component';
     ClickToRevealDirective,
     AdSectionComponent,
     ArticleListComponent,
+    FeedbackComponent,
   ],
   imports: [
     BrowserModule
