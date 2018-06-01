@@ -6,10 +6,11 @@ import { AppComponent } from './app.component';
 import { ArticleComponent } from './article/article.component';
 import { AttributionComponent } from './article/attribution/attribution.component';
 import { TextEditorComponent } from './article/text-editor/text-editor.component';
-import { ClickToRevealDirective } from './directives/click-to-reveal/click-to-reveal.directive';
+import { ClickToRevealDirective } from './directives/click-to-reveal.directive';
 import { AdSectionComponent } from './article/ad-section/ad-section.component';
 import { ArticleListComponent } from './article-list/article-list.component';
 import { FeedbackComponent } from './article/feedback/feedback.component';
+import { BgDirective } from './directives/class.directive';
 
 
 @NgModule({
@@ -22,6 +23,7 @@ import { FeedbackComponent } from './article/feedback/feedback.component';
     AdSectionComponent,
     ArticleListComponent,
     FeedbackComponent,
+    BgDirective,
   ],
   imports: [
     BrowserModule
